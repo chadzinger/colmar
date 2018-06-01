@@ -1,0 +1,47 @@
+/** Universal **/
+
+/** Header **/
+
+header {
+  height: 64px;
+}
+
+.title {
+  background-color: red;
+  display: inline;
+  padding-left: 24px;
+}
+
+.navigation h2 {
+  display: inline;
+}
+
+.navigation span {
+  font-weight: lighter;
+}
+
+.navigation nav {
+  float: right;
+  background-color: green;
+  width: 200px;
+}
+
+.navigation ul {
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline;
+  font-size: 18px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+}
+
+/** Main **/
+
+.main {
+  background-color: grey;
+}
