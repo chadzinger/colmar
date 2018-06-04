@@ -3,6 +3,8 @@
 body {
   font-family: 'Myriad Pro', sans-serif;
   color: #4e4e4f;
+  margin: 0 0;
+  padding: 0 0;
 }
 
 /** Header **/
@@ -55,13 +57,21 @@ header {
   }
 }
 
+@media only screen and (max-width: 450px) {
+  .menu {
+    display: none;
+  }
+}
+
 /** Main **/
 .main {
-  background-color: #a1a2a3;
+  background-color: #d8d8d8;
+  width: 100%;
 }
 
 .banner {
-  padding: 32px 24px;
+  margin-left: 24px;
+  padding: 32px 0;
   width: 60%;
   height: 50%;
   display: inline;
@@ -70,21 +80,29 @@ header {
 .learn {
   display: inline-block;
   position: absolute;
-  padding-left: 24px;
   color: #4e4e4f;
-  width: 40%;
+  width: 30%;
+  margin-left: 24px;
+  height: auto;
+  vertical-align: middle;
 }
 
 .main h1 {
-  font-weight: 700;
+  font-weight: bold;
+  font-size: 42px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-weight: normal;
 }
 
 .btn-start {
   background-color: #4e4e4f;
   border: none;
-  padding: 8px 75px;
-  margin: 0 0 0 125px;
+  padding: 8px 30%;
   color: white;
+  align-items: center;
 }
 
 /** Info section **/
