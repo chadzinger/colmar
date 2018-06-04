@@ -1,5 +1,10 @@
 /** Universal **/
 
+body {
+  font-family: 'Myriad Pro', sans-serif;
+  color: #4e4e4f;
+}
+
 /** Header **/
 
 header {
@@ -7,9 +12,14 @@ header {
 }
 
 .title {
-  background-color: red;
   display: inline;
-  padding-left: 24px;
+  position: absolute;
+  margin: 13px 0 0 24px;
+}
+
+.logo {
+  vertical-align: middle;
+  margin-bottom: 8px;
 }
 
 .navigation h2 {
@@ -22,8 +32,6 @@ header {
 
 .navigation nav {
   float: right;
-  background-color: green;
-  width: 200px;
 }
 
 .navigation ul {
@@ -33,6 +41,7 @@ header {
 .navigation li {
   display: inline;
   font-size: 18px;
+  padding-right: 16px;
 }
 
 .navigation a {
@@ -40,8 +49,50 @@ header {
   color: black;
 }
 
-/** Main **/
+@media only screen and (min-width: 451px) {
+  .mobile {
+    display: none;
+  }
+}
 
+/** Main **/
 .main {
-  background-color: grey;
+  background-color: #a1a2a3;
+}
+
+.banner {
+  padding: 32px 24px;
+  width: 60%;
+  height: 50%;
+  display: inline;
+}
+
+.learn {
+  display: inline-block;
+  position: absolute;
+  padding-left: 24px;
+  color: #4e4e4f;
+  width: 40%;
+  height: auto;
+
+}
+
+.main h1 {
+  font-weight: 700;
+}
+
+.btn-start {
+  background-color: #4e4e4f;
+  border: none;
+  padding: 8px 75px;
+  margin: 0 0 0 125px;
+  color: white;
+}
+
+/** Info section **/
+
+.info-banner {
+  width: 60%;
+  height: 50%;
+  padding: 32px 24px;
 }
